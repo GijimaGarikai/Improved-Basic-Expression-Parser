@@ -43,7 +43,7 @@ print("which evaluates to: %.3f" % evaluator(postfix))
 ```
 
 ### Notes
-
+- Only handles infix expressions, so ensure parentheses are used if subtracting
 - The script uses regex for improved handling of decimal numbers and multi-digit integers.
 - Error messages are displayed for invalid expressions.
 - The example demonstrates the conversion of an infix expression to postfix and its subsequent evaluation.
